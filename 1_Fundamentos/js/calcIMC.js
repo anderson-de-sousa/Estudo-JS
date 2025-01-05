@@ -1,8 +1,8 @@
-const altura = 1.71;
-const peso = 87;
+const height = 1.71;
+const weight = 87;
 
-function calcIMC(altura, peso){
-    return (peso / (altura * altura)).toFixed(2);
+function calcIMC(height, weight){
+    return (weight / (height * height)).toFixed(2);
 }
 
-console.log(`Para sua altura de ${altura}mt e peso de ${peso}kg, o seu IMC é de ${calcIMC(altura, peso)}`);
+console.log(`The height of ${height}mt and weight of ${weight}kg, the IMC is ${calcIMC(height, weight)}`);
