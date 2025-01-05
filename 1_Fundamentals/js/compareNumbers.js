@@ -1,11 +1,11 @@
-const valueA = 12;
+const valueA = "10";
 const valueB = 12;
 
 function compareNumbers(valueA, valueB){
 
     let result = "";
 
-    if(Number.isNaN(valueA) || Number.isNaN(valueB)){
+    if(!Number.isNaN(valueA) || !Number.isNaN(valueB)){
         result = "not number";
     }else if (valueA > valueB){
         result = "bigger";
